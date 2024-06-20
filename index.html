@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Responsive Web Page</title>
+
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css" />
+
+</head>
+
+<body>
+
+    <!--====================================== Header ======================================-->
+
+    <header>
+
+        <a href="#" class="logo">Fashion Hub</a>
+        <div class="menu-icon" id="menu-icon">
+            <i class="fas fa-bars"></i>
+        </div>
+
+        <nav id="nav-links">
+            <a href="#Home" class="active">Home</a>
+            <a href="#About_Us">About Us</a>
+            <a href="#Service">Service</a>
+            <a href="#Contact_Us">Contact Us</a>
+        </nav>
+
+    </header>
+
+    <!--====================================== Home ======================================-->
+
+    <section id="Home">
+
+        <div><img src="home.jpg" alt="">
+        </div>
+        <p>Step into the world of Fashion Hub, where fashion is a language, and your style is your voice. Our curated
+            collections blend timeless elegance with contemporary flair, offering a range of outfits that empower,
+            inspire, and celebrate individuality.
+
+            From chic dresses to versatile essentials, each piece is crafted with care and attention to detail, using
+            premium fabrics that ensure both comfort and style. Whether you're dressing for a special occasion or
+            embracing everyday chic, Fashion Hub has something to elevate your wardrobe.
+
+            Join us on a journey of self-expression and creativity. Explore our latest collections, discover fashion
+            inspiration, and make every outfit a statement. Welcome to a world where style meets substance. Welcome to
+            Fashion Hub.<br><br><a href="#Service" id="shop-now-button"><button type="button">Shop Now</button></a></p>
+
+    </section>
+
+    <!--====================================== About Us ======================================-->
+
+    <section id="About_Us">
+        <div class="responsive-container-block bigContainer">
+            <div class="responsive-container-block Container">
+                <p class="text-blk heading">
+                    About Us
+                </p>
+                <p class="text-blk subHeading">
+                    Welcome to Fashion Hub! We're your go-to destination for the hottest trends and timeless classics,
+                    all in one place. Our mission is simple: to provide you with quality, affordable fashion that
+                    empowers you to express your unique style confidently.
+
+                    At Fashion Hub, we carefully curate each piece to ensure it meets our standards of quality and
+                    style. From everyday essentials to statement pieces, we have everything you need to refresh your
+                    wardrobe and make a statement.
+
+                    Join our fashion-forward community today and discover a world of endless style possibilities. Let
+                    Fashion Hub be your guide to expressing yourself through fashion effortlessly.
+                </p>
+                <div class="social-icons-container">
+                    <a class="social-icon">
+                        <img class="socialIcon image-block"
+                            src="https://workik-widget-assets.s3.amazonaws.com/widget-assets/images/bb33.png">
+                    </a>
+                    <a class="social-icon">
+                        <img class="socialIcon image-block"
+                            src="https://workik-widget-assets.s3.amazonaws.com/widget-assets/images/bb34.png">
+                    </a>
+                    <a class="social-icon">
+                        <img class="socialIcon image-block"
+                            src="https://workik-widget-assets.s3.amazonaws.com/widget-assets/images/bb35.png">
+                    </a>
+                    <a class="social-icon">
+                        <img class="socialIcon image-block"
+                            src="https://workik-widget-assets.s3.amazonaws.com/widget-assets/images/bb36.png">
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+<!--====================================== Service ======================================-->
+
+<section id="Service">
+    <div class="content">
+        <!-- <h2 class="section-heading">Services</h2> Add the Services heading here -->
+        <div class="service-container">
+            <div class="service-box">
+                <img src="cargo.webp" alt="Service 1" class="service-image">
+                <h2 class="service-title">Cargo Jeans</h2>
+                <p class="service-description">Price $30</p>
+                <button type="button">Buy</button>
+            </div>
+            <div class="service-box">
+                <img src="hoodie.png" alt="Service 2" class="service-image">
+                <h2 class="service-title">Hoodie</h2>
+                <p class="service-description">Price $25</p>
+                <button type="button">Buy</button>
+            </div>
+            <div class="service-box">
+                <img src="tshirt.webp" alt="Service 3" class="service-image">
+                <h2 class="service-title">T-Shirt</h2>
+                <p class="service-description">Price $15</p>
+                <button type="button">Buy</button>
+            </div>
+            <!-- <div class="service-box">
+                <img src="jacket.jpg" alt="Service 3" class="service-image">
+                <h2 class="service-title">Jacket</h2>
+                <p class="service-description">Price $35</p>
+                <button type="button">Buy</button>
+            </div> -->
+            <!-- Add more service boxes as needed -->
+        </div>
+    </div>
+</section>
+
+
+    <!--====================================== Contact Us ======================================-->
+
+    <section id="Contact_Us">
+        <div class="content">
+            <form>
+                <div class="form" id="form">
+                    <div class="user-details">
+                        <div class="input-box">
+                            <span class="details">Name</span>
+                            <input type="text" name="name" placeholder="Name" required>
+                        </div>
+                        <div class="input-box">
+                            <span class="details">Email</span>
+                            <input type="email" name="email" placeholder="Email" required>
+                        </div>
+                        <div class="input-box">
+                            <span class="details">Subject</span>
+                            <input type="text" name="subject" placeholder="Subject" required>
+                        </div>
+                        <div class="input-box">
+                            <span class="details">Description</span>
+                            <textarea id="issue" placeholder="Describe your issue in detail over here" rows="5"
+                                name="description" required></textarea>
+                        </div>
+                    </div>
+                    <div class="button">
+                        <input type="submit" value="Submit">
+                    </div>
+                </div>
+            </form>
+        </div>
+    </section>
+
+    <!--====================================== Script ======================================-->
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
